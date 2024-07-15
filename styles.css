@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.row{
+    width: 100%;
+    /* object-fit: contain;  */
+    max-height: 150px;
+    
+    /* margin-right: 10px; */
+}
+
+.new{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    transition: transform 500ms ;
+}
+
+.row img:hover{
+    transform: scale(1.08);
+}
+.new::-webkit-scrollbar{
+    display: none;
+}
+
+.row{
+    color: white;
+    
+}
+.row {
+    
+    padding: 20px;
+    /* overflow-x: scroll; */
+}
+h2{
+    margin-left: 10px;
+}
+.banner{
+    background: url(./assets/new\ st.jpg);
+    background-size: cover;
+    color: white;
+    background-position: center center;
+    height: 600px;
+    object-fit: contain;
+}
+.content{
+    margin-top: 10px;
+    margin-left: 25px;
+    font-size: 50px;
+    font-weight: 800;
+}
+.banner_button>button{
+    margin-top: 10px;
+    margin-left: 25px;
+    color: white;
+    cursor: pointer;
+    padding-left: 2rem ;
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-right: 1rem;
+    background-color: rgb(59, 52, 52);
+    
+    
+}
+.banner_button button:hover{
+    background-color: white;
+    color: black;
+    transition:all 0.25;
+}
+.banner_desc{
+    margin-top: 40px;
+    margin-left: 25px;
+    font-size: 20px;
+    width:45rem;
+}
+.fade{
+    margin-top: 201px;
+    height: 50px;
+    background: linear-gradient(180deg,transparent,rgb(87, 83, 83));
+}
+.logo{
+    width: 150px;
+    position: fixed;
+}
+.avatar{
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    
+}
